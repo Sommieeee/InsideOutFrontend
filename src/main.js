@@ -13,4 +13,3 @@ app.use(createPinia())
 app.mount('#app')
 app.use(router)
 
-app.mount('#app')

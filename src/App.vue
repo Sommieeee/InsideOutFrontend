@@ -1,17 +1,12 @@
 <template>
-<div>
-  <Header></Header>
-   <!-- <RouterView /> -->
-  </div> 
+  <RouterView />
 </template>
-<script setup>
-import Header from './components/Header.vue';
-// export default{
-//   components: {
-//     Header
-//   }
-// }
+<script>
+export default {
+  data() {
+    return {};
+  },
+};
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
